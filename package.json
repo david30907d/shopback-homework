@@ -10,7 +10,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "rebase": "lint-staged"
+      "commit-msg": "echo 1111111; cz check"
     }
   },
   "lint-staged": {
