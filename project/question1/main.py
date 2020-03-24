@@ -13,6 +13,6 @@ def q1(path: str = "news.rss") -> None:
             news_story = []
             text = elem_text.replace("&nbsp", "")
             if text:
-                of.write(text + "\n")
+                df.write(text + "\n")
                 news_story += jieba.lcut(text)
-            df.write(" ".join(news_story) + "\n")
+            of.write(" ".join(news_story) + "\n")
