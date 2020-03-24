@@ -8,4 +8,4 @@ def q2(path:str="../question1/output.txt") -> None:
         corpus = f.readlines()
     vectorizer = TfidfVectorizer()
     X = vectorizer.fit_transform(corpus)
-    json.dump(X.toarray().tolist(), open("output.txt", "w"))
+    json.dump(X.toarray().tolist(), open("output2.txt", "w"))
