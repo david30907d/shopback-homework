@@ -1,4 +1,4 @@
-# Shopback Assignment
+# Shopback Assignment [![Build Status](https://travis-ci.com/david30907d/shopback-homework.svg?branch=master)](https://travis-ci.com/github/david30907d/shopback-homework)
 
 ## Install
 
